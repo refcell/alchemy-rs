@@ -21,4 +21,4 @@ async-trait = { version = "0.1.50", default-features = false }
 ethers = { version = "0.17.0", features = [ "ws", "rustls" ] }
 serde_json = { version = "1.0.64", default-features = false, features = ["raw_value"] }
 serde = "1.0.144"
-actix-rt = "*"
+actix-rt = "2.7.0"
