@@ -3,6 +3,7 @@
 #![forbid(unsafe_code)]
 #![forbid(where_clauses_object_safety)]
 #![deny(rustdoc::broken_intra_doc_links)]
+
 #![doc=include_str!("../README.md")]
 
 /// Alchemy Manager
