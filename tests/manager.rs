@@ -20,10 +20,7 @@ async fn test_alchemy_subscription() {
 
     // Listen to _pending_ transactions from the Eth2 Deposit Contract
     let stream = manager
-        .alchemy_pending_transactions(
-            Some(eth2_deposit_addr),
-            None,
-        )
+        .alchemy_pending_transactions(Some(eth2_deposit_addr), None)
         .await
         .expect("Failed to create TransactionStream for Alchemy");
 

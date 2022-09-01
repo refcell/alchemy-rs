@@ -2,9 +2,6 @@ name: ci
 
 on: [push]
 
-env:
-  ALCHEMY_API_KEY: ${{ secrets.ALCHEMY_API_KEY }}
-
 jobs:
   cargo-fmt:
     runs-on: ubuntu-latest
