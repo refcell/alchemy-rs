@@ -7,7 +7,7 @@ readme = "README.md"
 repository = "https://github.com/abigger87/alchemy-rs/"
 license = "AGPL-3.0-only"
 description = """
-Minimal ethers-rs Provider Wrappers for Interacting with Alchemy's API Built in Pure Rust.
+Minimal ethers-rs wrappers for the Alchemy API built in pure Rust.
 """
 keywords = ["sdk", "alchemy", "api", "rust", "logging"]
 exclude = [

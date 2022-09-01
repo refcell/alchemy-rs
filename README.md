@@ -3,7 +3,7 @@
 # alchemy-rs • [![ci](https://github.com/abigger87/alchemy-rs/actions/workflows/ci.yaml/badge.svg)](https://github.com/abigger87/alchemy-rs/actions/workflows/ci.yaml) ![license](https://img.shields.io/github/license/abigger87/alchemy-rs?label=license) [![crates.io](https://img.shields.io/crates/v/alchemy-rs.svg)](https://crates.io/crates/alchemy-rs)
 
 
-**Minimal** ethers-rs Provider Wrappers for Interacting with Alchemy's API Built in Pure Rust.
+**Minimal** ethers-rs wrappers for the Alchemy API built in pure Rust.
 
 
 ## Getting Started

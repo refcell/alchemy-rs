@@ -8,6 +8,7 @@ use alchemy_rs::prelude::*;
 #[actix_rt::test]
 async fn test_alchemy_subscription() {
     // We have to "await" the creation of a new AlchemyManager as it establishes the connection to the websocket
+    // We humbly ask that you do not use this alchemy api key
     let manager =
         AlchemyManager::new("wss://eth-mainnet.g.alchemy.com/v2/MVNYMOb_58bAMzhXX2pS25NDiZ3Q9HeC")
             .await;
