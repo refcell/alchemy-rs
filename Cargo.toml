@@ -1,0 +1,24 @@
+[package]
+name = "alchemy-rs"
+version = "0.1.0"
+edition = "2021"
+authors = [ "asnared" ]
+readme = "README.md"
+repository = "https://github.com/abigger87/alchemy-rs/"
+license = "AGPL-3.0-only"
+description = """
+Minimal ethers-rs Provider Wrappers for Interacting with Alchemy's API Built in Pure Rust.
+"""
+keywords = ["sdk", "alchemy", "api", "rust", "logging"]
+exclude = [
+    "assets",
+    ".env",
+    ".env.prod"
+]
+
+[dependencies]
+async-trait = { version = "0.1.50", default-features = false }
+ethers = { version = "0.17.0", features = [ "ws", "rustls" ] }
+serde_json = { version = "1.0.64", default-features = false, features = ["raw_value"] }
+serde = "1.0.144"
+actix-rt = "*"
