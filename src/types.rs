@@ -13,7 +13,7 @@
 /// ```rust
 /// use std::convert::TryFrom;
 /// use ethers::providers::{Middleware, Provider, Http};
-/// use alchemy-rs::{ExposedProvider};
+/// use alchemy_rs::types::{ExposedProvider};
 ///
 /// /// A custom struct that wraps a [Provider](ethers::providers::Provider)
 /// #[derive(Debug, Clone)]
