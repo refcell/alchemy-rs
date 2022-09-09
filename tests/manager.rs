@@ -2,14 +2,14 @@ use std::str::FromStr;
 
 use ethers::types::Address;
 
-use alchemy_rs::prelude::*;
+use alchemy_rs::{prelude::*, connectors::AlchemyConnectorType};
 
 #[actix_rt::test]
 async fn test_alchemy_subscription() {
     // Create the AlchemyManager
     let mut manager = AlchemyManager::new(
         "wss://eth-mainnet.g.alchemy.com/v2/MVNYMOb_58bAMzhXX2pS25NDiZ3Q9HeC",
-        None,
+        Some(AlchemyConnectorType::Raw),
     );
 
     // Connect to the websocket
